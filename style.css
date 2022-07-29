@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 150px;
+}
+
+.list-container {
+  width: 40%;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item {
+  font-family: "Orbitron", sans-serif;
+  display: inline;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.list-item:hover {
+  font-weight: 800;
+  position: relative;
+  font-size: 30px;
+}
+
+.list-item:hover::before {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 5px;
+  bottom: 0;
+  left: 30%;
+  border-bottom: 3px solid black;
+}
+
+.button-group div {
+  display: inline;
+}
+
+.search-icon {
+  vertical-align: bottom;
+  height: 20px;
+}
+
+.nav-button {
+  font-size: 30px;
+  padding: 7px 50px 2px 50px;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  margin-left: 10px;
+  background-color: #FFFFFF;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 0px 100px;
+}
+
+.hero-container-left{
+  position: relative;
+  margin-left: 50px;
+  height: 750px;
+  float: left;
+  padding-top: 25px;
+}
+
+.square {
+  position: absolute;
+  bottom:0;
+  right: 0;
+  z-index: -1;
+}
+
+.hero-container-right{
+  padding: 0 10px;
+}
+
+.globe-star {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 150px;
+  padding: 0px 30px;
+}
+
+.globe {
+  align-self: flex-start;
+  padding-left: 150px;
+}
+
+.star-one {
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+.hero-heading{
+  margin-top: 20px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  padding-left: 20px;
+}
+
+.hero-description {
+  padding: 50px 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.hero-btns {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-email {
+  background-color: #FFFFFF;
+  color: #515151;
+  padding: 5px 25px;
+  border-color: #515151;
+}
+
+.button-join {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 5px 10px;
+}
+
+.button-email, .button-join{
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contact-us {
+  padding: 50px 50px 0px 75px;
+}
+
+.contact-main {
+  padding-left: 275px;
+  display: inline-block;
+}
+
+.contact-heading {
+  font-size: 25px;
+  color: #515151;
+  font-weight: 500;
+  text-align: center;
+}
+
+.icons{
+  padding-top: 20px;
+}
+
+.icons span {
+  padding: 0 10px;
+}
